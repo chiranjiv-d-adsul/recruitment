@@ -2,7 +2,7 @@
 
 This is a full-stack web application built with React.js and Express.js that allows users to search for candidates based on location and job role, and add new candidates to the database.
 
-Deploy Application :- https://willowy-maamoul-554c69.netlify.app/
+Deploy Application :- https://willowy-maamoul-554c69.netlify.app/  <br>
 Backend Deployed :- https://recruit-backend-gwku.onrender.com/
 
 ## Technologies Used
