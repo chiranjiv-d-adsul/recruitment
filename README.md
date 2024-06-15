@@ -24,3 +24,32 @@ Backend Deployed :- https://recruit-backend-gwku.onrender.com/
    ```bash
    git clone <repository-url>
    cd <repository-folder>
+   cd backend
+   npm install
+   
+2.Set environment variables:
+
+Create a .env file in the backend directory.
+Define the following variables in the .env file:
+
+    PORT=5000
+    MONGODB_URI=<your-mongodb-uri>
+    JWT_SECRET=<your-jwt-secret>
+Start the backend server:
+
+      npm start
+This will start the Express server at http://localhost:5000.
+
+Frontend Setup
+Navigate back to the root folder (if you are in the backend folder):
+
+
+      cd ..
+Install frontend dependencies:
+
+      npm install
+      
+Start the React development server:
+
+      npm start
+This will start the React development server at http://localhost:3000.      
