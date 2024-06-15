@@ -3,28 +3,34 @@ import React from 'react';
 const FeaturesSection = () => {
   const features = [
     {
-      title: 'Feature One',
-      description: 'Detailed description of the first feature.',
+      title: 'Job Search',
+      description: 'Search for job openings based on keywords, location, and job category.',
+      description2: 'Filter results by various criteria such as salary range and experience level.',
     },
     {
-      title: 'Feature Two',
-      description: 'Detailed description of the second feature.',
+      title: 'Candidate Management',
+      description: 'Store candidate profiles with details like skills, experience, and contact information.',
+      description2: 'Track candidate status throughout the recruitment process.',
     },
     {
-      title: 'Feature Three',
-      description: 'Detailed description of the third feature.',
+      title: 'Application Tracking',
+      description: 'Monitor job application status for candidates.',
+      description2: 'Notify candidates of application updates and interview schedules.',
     },
     {
-      title: 'Feature One',
-      description: 'Detailed description of the first feature.',
+      title: 'Resume Parsing',
+      description: 'Automatically parse and extract information from resumes.',
+      description2: 'Populate candidate profiles with parsed data for easier evaluation.',
     },
     {
-      title: 'Feature Two',
-      description: 'Detailed description of the second feature.',
+      title: 'Interview Scheduling',
+      description: 'Schedule interviews with candidates directly through the platform.',
+      description2: 'Sync interview details with calendars and send reminders.',
     },
     {
-      title: 'Feature Three',
-      description: 'Detailed description of the third feature.',
+      title: 'Analytics and Reporting',
+      description: 'Generate reports on recruitment metrics such as time-to-hire and applicant demographics.',
+      description2: 'Analyze data to optimize recruitment strategies and processes.',
     },
   ];
 
@@ -37,6 +43,8 @@ const FeaturesSection = () => {
             <div key={index} className='p-6 bg-white rounded shadow-md'>
               <h3 className='text-xl md:text-2xl font-semibold mb-4'>{feature.title}</h3>
               <p>{feature.description}</p>
+              <p>{feature.description2}</p>
+
             </div>
           ))}
         </div>
